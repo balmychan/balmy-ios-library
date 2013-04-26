@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87F7C56172A32B000323D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87F7C55172A32B000323D2D /* Foundation.framework */; };
+		C87F7C5B172A32B000323D2D /* balmy_ios_library.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C87F7C5A172A32B000323D2D /* balmy_ios_library.h */; };
+		C87F7C5D172A32B000323D2D /* balmy_ios_library.m in Sources */ = {isa = PBXBuildFile; fileRef = C87F7C5C172A32B000323D2D /* balmy_ios_library.m */; };
+		C87F7C65172A32B100323D2D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87F7C64172A32B100323D2D /* SenTestingKit.framework */; };
+		C87F7C67172A32B100323D2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87F7C66172A32B100323D2D /* UIKit.framework */; };
+		C87F7C68172A32B100323D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87F7C55172A32B000323D2D /* Foundation.framework */; };
+		C87F7C6B172A32B100323D2D /* libbalmy-ios-library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C87F7C52172A32B000323D2D /* libbalmy-ios-library.a */; };
+		C87F7C71172A32B100323D2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C87F7C6F172A32B100323D2D /* InfoPlist.strings */; };
+		C87F7C74172A32B100323D2D /* balmy_ios_libraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C87F7C73172A32B100323D2D /* balmy_ios_libraryTests.m */; };
+		C87F7C7F172A32DD00323D2D /* BALImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C87F7C7E172A32DD00323D2D /* BALImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87F7C69172A32B100323D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87F7C4A172A32B000323D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87F7C51172A32B000323D2D;
+			remoteInfo = "balmy-ios-library";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C87F7C50172A32B000323D2D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				C87F7C5B172A32B000323D2D /* balmy_ios_library.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C87F7C52172A32B000323D2D /* libbalmy-ios-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libbalmy-ios-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87F7C55172A32B000323D2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C87F7C59172A32B000323D2D /* balmy-ios-library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "balmy-ios-library-Prefix.pch"; sourceTree = "<group>"; };
+		C87F7C5A172A32B000323D2D /* balmy_ios_library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = balmy_ios_library.h; sourceTree = "<group>"; };
+		C87F7C5C172A32B000323D2D /* balmy_ios_library.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = balmy_ios_library.m; sourceTree = "<group>"; };
+		C87F7C63172A32B100323D2D /* balmy-ios-libraryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "balmy-ios-libraryTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87F7C64172A32B100323D2D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C87F7C66172A32B100323D2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C87F7C6E172A32B100323D2D /* balmy-ios-libraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "balmy-ios-libraryTests-Info.plist"; sourceTree = "<group>"; };
+		C87F7C70172A32B100323D2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C87F7C72172A32B100323D2D /* balmy_ios_libraryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = balmy_ios_libraryTests.h; sourceTree = "<group>"; };
+		C87F7C73172A32B100323D2D /* balmy_ios_libraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = balmy_ios_libraryTests.m; sourceTree = "<group>"; };
+		C87F7C7D172A32DD00323D2D /* BALImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BALImageView.h; sourceTree = "<group>"; };
+		C87F7C7E172A32DD00323D2D /* BALImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BALImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87F7C4F172A32B000323D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87F7C56172A32B000323D2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87F7C5F172A32B100323D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87F7C65172A32B100323D2D /* SenTestingKit.framework in Frameworks */,
+				C87F7C67172A32B100323D2D /* UIKit.framework in Frameworks */,
+				C87F7C68172A32B100323D2D /* Foundation.framework in Frameworks */,
+				C87F7C6B172A32B100323D2D /* libbalmy-ios-library.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87F7C49172A32B000323D2D = {
+			isa = PBXGroup;
+			children = (
+				C87F7C57172A32B000323D2D /* balmy-ios-library */,
+				C87F7C6C172A32B100323D2D /* balmy-ios-libraryTests */,
+				C87F7C54172A32B000323D2D /* Frameworks */,
+				C87F7C53172A32B000323D2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87F7C53172A32B000323D2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87F7C52172A32B000323D2D /* libbalmy-ios-library.a */,
+				C87F7C63172A32B100323D2D /* balmy-ios-libraryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87F7C54172A32B000323D2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C87F7C55172A32B000323D2D /* Foundation.framework */,
+				C87F7C64172A32B100323D2D /* SenTestingKit.framework */,
+				C87F7C66172A32B100323D2D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C87F7C57172A32B000323D2D /* balmy-ios-library */ = {
+			isa = PBXGroup;
+			children = (
+				C87F7C81172A32F400323D2D /* Common */,
+				C87F7C83172A332D00323D2D /* Utils */,
+				C87F7C82172A330000323D2D /* UIComponents */,
+				C87F7C58172A32B000323D2D /* Supporting Files */,
+			);
+			path = "balmy-ios-library";
+			sourceTree = "<group>";
+		};
+		C87F7C58172A32B000323D2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87F7C59172A32B000323D2D /* balmy-ios-library-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C87F7C6C172A32B100323D2D /* balmy-ios-libraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C87F7C72172A32B100323D2D /* balmy_ios_libraryTests.h */,
+				C87F7C73172A32B100323D2D /* balmy_ios_libraryTests.m */,
+				C87F7C6D172A32B100323D2D /* Supporting Files */,
+			);
+			path = "balmy-ios-libraryTests";
+			sourceTree = "<group>";
+		};
+		C87F7C6D172A32B100323D2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87F7C6E172A32B100323D2D /* balmy-ios-libraryTests-Info.plist */,
+				C87F7C6F172A32B100323D2D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C87F7C80172A32E800323D2D /* BALImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C87F7C7D172A32DD00323D2D /* BALImageView.h */,
+				C87F7C7E172A32DD00323D2D /* BALImageView.m */,
+			);
+			name = BALImageView;
+			sourceTree = "<group>";
+		};
+		C87F7C81172A32F400323D2D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C87F7C5A172A32B000323D2D /* balmy_ios_library.h */,
+				C87F7C5C172A32B000323D2D /* balmy_ios_library.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		C87F7C82172A330000323D2D /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				C87F7C80172A32E800323D2D /* BALImageView */,
+			);
+			name = UIComponents;
+			sourceTree = "<group>";
+		};
+		C87F7C83172A332D00323D2D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87F7C51172A32B000323D2D /* balmy-ios-library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87F7C77172A32B100323D2D /* Build configuration list for PBXNativeTarget "balmy-ios-library" */;
+			buildPhases = (
+				C87F7C4E172A32B000323D2D /* Sources */,
+				C87F7C4F172A32B000323D2D /* Frameworks */,
+				C87F7C50172A32B000323D2D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "balmy-ios-library";
+			productName = "balmy-ios-library";
+			productReference = C87F7C52172A32B000323D2D /* libbalmy-ios-library.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C87F7C62172A32B100323D2D /* balmy-ios-libraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87F7C7A172A32B100323D2D /* Build configuration list for PBXNativeTarget "balmy-ios-libraryTests" */;
+			buildPhases = (
+				C87F7C5E172A32B100323D2D /* Sources */,
+				C87F7C5F172A32B100323D2D /* Frameworks */,
+				C87F7C60172A32B100323D2D /* Resources */,
+				C87F7C61172A32B100323D2D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87F7C6A172A32B100323D2D /* PBXTargetDependency */,
+			);
+			name = "balmy-ios-libraryTests";
+			productName = "balmy-ios-libraryTests";
+			productReference = C87F7C63172A32B100323D2D /* balmy-ios-libraryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87F7C4A172A32B000323D2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = balmychan;
+			};
+			buildConfigurationList = C87F7C4D172A32B000323D2D /* Build configuration list for PBXProject "balmy-ios-library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C87F7C49172A32B000323D2D;
+			productRefGroup = C87F7C53172A32B000323D2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87F7C51172A32B000323D2D /* balmy-ios-library */,
+				C87F7C62172A32B100323D2D /* balmy-ios-libraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87F7C60172A32B100323D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87F7C71172A32B100323D2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C87F7C61172A32B100323D2D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87F7C4E172A32B000323D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87F7C5D172A32B000323D2D /* balmy_ios_library.m in Sources */,
+				C87F7C7F172A32DD00323D2D /* BALImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87F7C5E172A32B100323D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87F7C74172A32B100323D2D /* balmy_ios_libraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87F7C6A172A32B100323D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87F7C51172A32B000323D2D /* balmy-ios-library */;
+			targetProxy = C87F7C69172A32B100323D2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C87F7C6F172A32B100323D2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87F7C70172A32B100323D2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87F7C75172A32B100323D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C87F7C76172A32B100323D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87F7C78172A32B100323D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/balmy_ios_library.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "balmy-ios-library/balmy-ios-library-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C87F7C79172A32B100323D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/balmy_ios_library.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "balmy-ios-library/balmy-ios-library-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C87F7C7B172A32B100323D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "balmy-ios-library/balmy-ios-library-Prefix.pch";
+				INFOPLIST_FILE = "balmy-ios-libraryTests/balmy-ios-libraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C87F7C7C172A32B100323D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "balmy-ios-library/balmy-ios-library-Prefix.pch";
+				INFOPLIST_FILE = "balmy-ios-libraryTests/balmy-ios-libraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87F7C4D172A32B000323D2D /* Build configuration list for PBXProject "balmy-ios-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87F7C75172A32B100323D2D /* Debug */,
+				C87F7C76172A32B100323D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87F7C77172A32B100323D2D /* Build configuration list for PBXNativeTarget "balmy-ios-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87F7C78172A32B100323D2D /* Debug */,
+				C87F7C79172A32B100323D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C87F7C7A172A32B100323D2D /* Build configuration list for PBXNativeTarget "balmy-ios-libraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87F7C7B172A32B100323D2D /* Debug */,
+				C87F7C7C172A32B100323D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87F7C4A172A32B000323D2D /* Project object */;
+}
